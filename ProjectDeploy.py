@@ -1,0 +1,42 @@
+import Common.Const
+CONST = Common.Const
+
+
+def print_info():
+    print("-------------------------------------------")
+    print("客户")
+    print("客户名称：" + CONST.CUSTOM_NAME)
+    print("客户code：" + CONST.CUSTOM_CODE)
+    print("-------------------------------------------")
+    print("项目：" + CONST.PROJECT_NAME_EN)
+    print("-------------------------------------------")
+    print("RabbitMQ")
+    print("地址：" + CONST.RABBITMQ_ADDRESS)
+    print("Virtual Hosts：" + CONST.RABBITMQ_VIRTUAL_HOST)
+    print("-------------------------------------------")
+    print("Exceptionless")
+    print("客户：" + CONST.EXCEPTIONLESS_CUSTOM_NAME)
+    print("地址：" + CONST.EXCEPTIONLESS_ADDRESS)
+    print("Key：" + CONST.EXCEPTIONLESS_KEY)
+    print("-------------------------------------------")
+    print("服务器IP地址：" + CONST.SERVER_IP)
+    print("-------------------------------------------")
+    print("服务号Appid：" + CONST.SERVICE_APPID)
+    print("-------------------------------------------")
+    print("商户号：" + CONST.BUSINESS_NO)
+    print("-------------------------------------------")
+    print("域名")
+    print("域名：" + CONST.DOMAIN)
+    print("商户号后台：" + CONST.BUSINESS_BACK)       #JSAPI支付授权目录
+    print("CRM支付配置工具：" + CONST.CRM_PAY_CONFIG_TOOL)
+    print("代理WS：" + CONST.PROXY_WS)
+    print("-------------------------------------------")
+    print("数据库")
+    print("地址：" + CONST.DATABASE_ADDRESS)
+    print("User：" + CONST.DATABASE_USER)
+    print("Pwd：" + CONST.DATABASE_PWD)
+    print("队列库：" + CONST.DATABASE_DTDSQUEUE)
+    print("核心库1：" + CONST.DATABASE_HX1)
+    print("核心库2：" + CONST.DATABASE_HX2)
+    print("-------------------------------------------")
+
